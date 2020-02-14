@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* 初期設定*/
+
+/* fv */
+div#fv-wrapper {
+    height: 685px;
+    background: url(../img/fv.jpg) no-repeat center center;
+    background-size: cover;  
+}
+div#fv-wrapper h2 {
+    font-size: 80px;
+}
+div#fv-wrapper a {
+    color: #fff;
+}
+
+
