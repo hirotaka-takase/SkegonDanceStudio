@@ -87,6 +87,10 @@
     min-height: 660px;
     background: transparent;
 }
+.animation-speed {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
 
 
 
