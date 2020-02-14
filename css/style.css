@@ -83,6 +83,11 @@
 .fv a{
    color: #fff!important;
 }
+.parallax-window {
+    min-height: 660px;
+    background: transparent;
+}
+
 
 
 

@@ -21,3 +21,7 @@ jQuery(document).ready(function(){
             navFlg = false;
         }
     });
+
+// パララックス
+    $('.parallax-window').parallax({imageSrc: './img/fv.jpg'});
+});
