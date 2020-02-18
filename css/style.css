@@ -1,15 +1,23 @@
 @charset "UTF-8";
 
-/* 初期設定*/
+/* サイト全体の設定 */
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
 }
 .inner{
     margin: 0 auto;
     width: 1000px;
+}
+.fadein {
+  opacity : 0;
+  transform : translate(50px, 0);
+  transition : all 1500ms;
+}
+.fadein.scrollin {
+  opacity : 1;
+  transform : translate(0, 0);
 }
 
 /* fv */
