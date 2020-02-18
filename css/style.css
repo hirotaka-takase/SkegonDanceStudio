@@ -1,6 +1,24 @@
 @charset "UTF-8";
 
-/* 初期設定*/
+/* サイト全体の設定 */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.inner{
+    margin: 0 auto;
+    width: 1000px;
+}
+.fadein {
+  opacity : 0;
+  transform : translate(50px, 0);
+  transition : all 1500ms;
+}
+.fadein.scrollin {
+  opacity : 1;
+  transform : translate(0, 0);
+}
 
 /* fv */
 .menu{
@@ -92,8 +110,129 @@
     animation-duration: 3s;
 }
 
+/* about */
+.about_intro{
+    background: #13171d!important;
+}
+.about_intro .card {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.imgWrap {
+	overflow: hidden;	/*拡大時にはみ出た部分を隠す*/
+    width: 100%;	/*画像の幅*/
+    background: #000;
+}
+.imgWrap img {
+	display: block;
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+}
+.imgWrap img:hover {
+	transform: scale(1.1);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+    opacity: 0.6;
+}
+.about_gallary {
+    background: #222831;
+}
+#slideshow {/*全体*/
+    margin: 0 auto;
+    height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+   
+  .entire-content {/*カルーセルの見栄え。perspectiveで奥行きを設定する*/
+    margin: auto;
+    width: 190px;
+    perspective: 900px;
+    position: relative;
+    padding-top: 80px;
+  }
+   
+  .content-carrousel {/*各画像を包括、アニメーションを設定*/
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 20s infinite linear;
+    transform-style: preserve-3d;
+  }
+   
+  .content-carrousel:hover {/*ホバーしたらアニメーションを停止してポインター表示*/
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+   
+  .content-carrousel figure {/*各画像設定*/
+    width: 100%;
+    height: 120px;
+    border: 1px solid #3b444b;
+    overflow: hidden;
+    position: absolute;
+  }
+   
+  /*個々の画像設定*/
+  .content-carrousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(300px);
+  }
+  .content-carrousel figure:nth-child(10) {
+    transform: rotateY(360deg) translateZ(300px);
+  }
+   
+  .shadow {
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 1px;
+  }
+   
+  .content-carrousel img {
+    image-rendering: auto;
+    transition: all 300ms;
+    width: 100%;
+    height: 100%;
+  }
+   
+  .content-carrousel img:hover {/*画像ホバーでズーム*/
+    transform: scale(1.2);
+    transition: all 300ms;
+  }
+   
+  @keyframes rotar {/*カルーセルのアニメーション*/
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
 
-
-
+/* footer */
+footer {
+    background: #13171d!important;
+}
 
 

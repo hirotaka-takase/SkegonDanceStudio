@@ -24,4 +24,16 @@ jQuery(document).ready(function(){
 
 // パララックス
     $('.parallax-window').parallax({imageSrc: './img/fv.jpg'});
+
+// スクロールフワッと
+    $(window).scroll(function (){
+        $('.fadein').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 200){
+                $(this).addClass('scrollin');
+            }
+        });
+    });
 });
