@@ -230,6 +230,18 @@
     }
   }
 
+/* teacher */
+#teacher .bg-black {
+  background: #13171d!important;
+}
+#teacher .bg-another-black {
+  background: #222831;
+}
+#teacher .card {
+  background: transparent!important;
+}
+
+
 /* footer */
 footer {
     background: #13171d!important;
