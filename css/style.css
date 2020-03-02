@@ -241,10 +241,26 @@
   background: transparent!important;
 }
 
+/* price */
+#schedule table td {
+  height: 100px;
+}
+#price ul li {
+  background: none;
+  border-bottom: 1px solid #fff; 
+}
+
+
 
 /* footer */
 footer {
     background: #13171d!important;
 }
 
+@media screen and (max-width:768px) { 
+  .inner{
+    width: 100%!important;
+    padding: 0 2.5%;
+}
+}
 
