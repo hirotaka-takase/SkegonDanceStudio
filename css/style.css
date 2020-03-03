@@ -239,6 +239,7 @@
 }
 #teacher .card {
   background: transparent!important;
+  border: none;
 }
 
 /* price */
