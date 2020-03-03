@@ -95,7 +95,7 @@
     background-size: cover;
     height: 100vh;
 }
-.fv h2 {
+.fv h1, .fv h2 {
     font-size: 80px;
 }
 .fv a{
@@ -239,6 +239,7 @@
 }
 #teacher .card {
   background: transparent!important;
+  border: none;
 }
 
 /* price */
