@@ -81,7 +81,7 @@ require_once('header.php');
                     <div class="row no-gutters">
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">RUKA</h5>
+                                <h5 class="card-title">RuKa</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
@@ -102,7 +102,7 @@ require_once('header.php');
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Rue</h5>
+                                <h5 class="card-title">RUE</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
