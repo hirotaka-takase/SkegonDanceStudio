@@ -81,7 +81,7 @@
 }
 .gnav__menu__item a{
     color: #fff;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: bold;
     text-decoration: none;
     transition: .5s;
@@ -95,8 +95,8 @@
     background-size: cover;
     height: 100vh;
 }
-.fv h1, .fv h2 {
-    font-size: 80px;
+.fv h2 {
+    font-size: 50px;
 }
 .fv a{
    color: #fff!important;
@@ -111,6 +111,9 @@
 }
 
 /* about */
+h1 {
+  font-size: 1.75rem;
+}
 .about_intro{
     background: #13171d!important;
 }

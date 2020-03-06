@@ -1,4 +1,5 @@
 <?php
+$fv_title = "ギャラリー";
 require_once('header.php');
 ?>
     <div id="price" style="background:  #222831;">

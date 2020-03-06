@@ -1,4 +1,5 @@
 <?php
+$fv_title = "お問い合わせ";
 require_once('header.php');
 ?>
     <div id="contact" style="background:  #222831;">

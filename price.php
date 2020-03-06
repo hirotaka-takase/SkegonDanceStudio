@@ -1,4 +1,5 @@
 <?php
+$fv_title = "スケジュール・料金";
 require_once('header.php');
 ?>
     <div id="schedule" style="background: #13171d!important">
@@ -71,7 +72,7 @@ require_once('header.php');
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>SKEGON<br>ジュニア初級<br>BREAKIN</td>
+                    <td>SKEGON<br>ジュニア中中級<br>BREAKIN</td>
                   </tr>
                   <tr>
                     <th scope="row">19::30~21:00</th>
@@ -99,9 +100,6 @@ require_once('header.php');
     <div id="price" style="background:  #222831;">
         <div class="inner fadein text-center pt-5 pb-5 text-white">
             <h3 class="py-3">料金表</h3>
-            <p class="mb-5">
-                Skegon Dance Studioでは、なるべく多くの<br>
-                方に受講して頂けるよう、低価格でダンスレッスンを行っています</p>
             <ul class="list-group list-group-flush" style="width: 300px; margin: 0 auto; background: transparent">
                 <li class="list-group-item">
                     初期費用<br>

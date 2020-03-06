@@ -1,9 +1,10 @@
 <?php
+$fv_title = "スタジオについて";
 require_once('header.php');
 ?>
 <div class="about_intro">
         <div class="inner fadein text-center pt-5 pb-5 text-white">
-            <h3 class="py-3">Skegon Dance Studio</h3>
+            <h1 class="py-3">Skegon Dance Studio</h1>
             <p class="mb-5">
                 岐阜県山県市を拠点とするSkegon Dance Studioは<br>
                 ストリートダンスシーンにおいて世界大会に出場経験をもち<br>

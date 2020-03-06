@@ -1,4 +1,5 @@
 <?php
+$fv_title = "インストラクター";
 require_once('header.php');
 ?>
     <div id="teacher">
