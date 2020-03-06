@@ -1,4 +1,6 @@
 <?php
+$title = "スケジュール・料金";
+$description = "岐阜県山県市を拠点とするSkegon Dance Studioでダンスを始めてみませんか？格安価格、豊富なダンスレッスンでお待ちしております。";
 $fv_title = "スケジュール・料金";
 require_once('header.php');
 ?>

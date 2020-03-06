@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skegon Dance Studio</title>
+    <title><?=$title ?? "Skegon Dance Studio" ?></title>
+    <meta name="description" content="<?=$description ?? "Skegon Dance Studioは岐阜県山県市を拠点とするDance Studioです。ストリートダンスシーンにおいて世界大会に出場経験をもち、現在も第一線で活躍する個性あふれるインストラクターが指導してくれます。" ?>" />
+    <meta property="og:url" content="URL" />
+    <meta property="og:title" content="タイトル" />
+    <meta property="og:description" content="抜粋" />
+    <meta property="og:image" content="画像のURL" />
+    <meta property="og:type" content="タイプ">
+    <meta property="og:site_name" content="サイト名" />
+    <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">

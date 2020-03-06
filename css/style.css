@@ -49,6 +49,9 @@
     width: 30px;
     z-index: 99;
 }
+.menu:hover {
+  cursor: pointer;
+}
 .menu__line{
     background: #fff;
     display: block;

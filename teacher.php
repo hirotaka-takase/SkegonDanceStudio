@@ -1,4 +1,6 @@
 <?php
+$title = "インストラクター";
+$description = "岐阜県山県市を拠点とするSkegon Dance Studioの講師陣たちです。ストリートダンスシーンにおいて世界大会に出場経験を持つ人を始め、実力あるインストラクターからのダンスレッスンを受けてみませんか？";
 $fv_title = "インストラクター";
 require_once('header.php');
 ?>

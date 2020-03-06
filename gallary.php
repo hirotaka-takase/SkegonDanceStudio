@@ -1,4 +1,6 @@
 <?php
+$title = "ギャラリー";
+$description = "岐阜県山県市を拠点とするSkegon Dance Studioでの普段の様子やレッスン風景、イベントの様子などを写真で公開しています。あなたも、Skegon Dance Studioでダンスを始めてみませんか？";
 $fv_title = "ギャラリー";
 require_once('header.php');
 ?>

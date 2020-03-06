@@ -1,4 +1,6 @@
 <?php
+$title = "お問い合わせ";
+$description = "岐阜県山県市を拠点とするSkegon Dance Studioでの体験予約、ダンスに関すること、その他質問を受付しております。";
 $fv_title = "お問い合わせ";
 require_once('header.php');
 ?>
