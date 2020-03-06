@@ -1,7 +1,6 @@
 <?php
 require_once('header.php');
 ?>
-
 <div class="about_intro">
         <div class="inner fadein text-center pt-5 pb-5 text-white">
             <h3 class="py-3">Skegon Dance Studio</h3>
@@ -69,6 +68,3 @@ require_once('header.php');
 <?php
 require_once('footer.php');
 ?>
-</body>
-</html>
-<script src="js/main.js" type="text/javascript"></script>

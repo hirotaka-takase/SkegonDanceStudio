@@ -5,3 +5,7 @@
     </p>
     <p class="mb-0 text-center">Copyright © 2020 Sukegon Dance Studio All Right Reserved.</p>
 </footer>  
+</body>   
+</html>
+<script src="js/main.js" type="text/javascript"></script>
+
