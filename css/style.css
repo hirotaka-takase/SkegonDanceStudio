@@ -20,6 +20,26 @@
   transform : translate(0, 0);
 }
 
+/* ページスクロールボタン */
+.page-top{
+  position:fixed;
+  bottom:20px;
+  right:40px;
+  z-index: 100;
+}
+.page-top a{
+  display: table-cell;
+  vertical-align: middle;  
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+  background-color: #17a2b8;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;  
+}
+
 /* fv */
 .menu{
     height: 20px;

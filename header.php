@@ -36,4 +36,9 @@
                 <a class="btn px-5 py-3 btn-info btn-lg" href="/works/SkegonDanceStudio/contact.php">体験予約</a>    
             </div>
         </div>
+        <p class="page-top">
+            <a href="#top">
+                <span>&uarr;<br>トップ</span>
+            </a>
+        </p>
     </div>
