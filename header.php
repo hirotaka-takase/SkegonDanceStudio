@@ -20,11 +20,11 @@
     <nav class="gnav">
         <div class="gnav__wrap">
             <ul class="gnav__menu">
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/about.php">About</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/teacher.php">Teacher</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/price.php">Price・Schedule</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/gallary.php">Gallary</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/contact.php">Contact</a></li>
+                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/about.php">スタジオ</a></li>
+                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/teacher.php">インストラクター</a></li>
+                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/price.php">スケジュール・<br>料金</a></li>
+                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/gallary.php">写真</a></li>
+                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/contact.php">お問い合わせ</a></li>
             </ul>
         </div>
     </nav>
@@ -32,7 +32,7 @@
         <p class="px-4 py-3"><a href="/works/SkegonDanceStudio"><img src="img/logo.png" alt="スタジオロゴ" width="150" height="70"></a></p>
         <div class="py-5 d-flex justify-content-center align-items-center">
             <div class="text-center">
-                <h2 class="lead text-white animated flipInX animation-speed">What's<br>Skegon<br>Dance<br>Studio</h2>
+                <h2 class="lead text-white animated flipInX animation-speed">Skegon<br>Dance<br>Studio</h2>
                 <a class="btn px-5 py-3 btn-info btn-lg" href="/works/SkegonDanceStudio/contact.php">体験予約</a>    
             </div>
         </div>
