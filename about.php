@@ -1,43 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skegon Dance Studio</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@^2.0.0"></script>
-    <script src="js/parallax.min.js"></script>
-</head>
-<body>
-    <a class="menu">
-        <span class="menu__line menu__line--top"></span>
-        <span class="menu__line menu__line--center"></span>
-        <span class="menu__line menu__line--bottom"></span>
-    </a>
-    <nav class="gnav">
-        <div class="gnav__wrap">
-            <ul class="gnav__menu">
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/about.html">About</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/teacher.html">Teacher</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/price.html">Price・Schedule</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/gallary.html">Gallary</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="fv parallax-window">
-        <p class="px-4 py-3"><a href="/works/SkegonDanceStudio"><img src="img/logo.png" alt="スタジオロゴ" width="150" height="70"></a></p>
-        <div class="py-5 d-flex justify-content-center align-items-center">
-            <div class="text-center">
-                <h2 class="lead text-white animated flipInX animation-speed">What's<br>Skegon<br>Dance<br>Studio</h2>
-                <a class="btn px-5 py-3 btn-info btn-lg" href="/works/SkegonDanceStudio/contact.html">体験予約</a>    
-            </div>
-        </div>
-    </div>
-    <div class="about_intro">
+<?php
+require_once('header.php');
+?>
+
+<div class="about_intro">
         <div class="inner fadein text-center pt-5 pb-5 text-white">
             <h3 class="py-3">Skegon Dance Studio</h3>
             <p class="mb-5">
@@ -49,28 +14,28 @@
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="imgWrap">
-                        <a href="/works/SkegonDanceStudio/teacher.html">
+                        <a href="/works/SkegonDanceStudio/teacher.php">
                             <img src="img/fv.jpg" class="card-img-top" alt="インストラクターイメージ">
                         </a>
                     </div>
                     <div class="card-body">
                       <h5 class="card-title">経験豊かな講師陣</h5>
                       <p class="card-text">Skegon Dance Studioでは経験豊かな<br>講師陣を揃え初めてダンスを習う人や<br>経験者まで幅広く育成・指導を行っています。</p>
-                      <a href="/works/SkegonDanceStudio/teacher.html" class="px-5 py-2 btn btn-outline-info">詳細</a>
+                      <a href="/works/SkegonDanceStudio/teacher.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="imgWrap">
-                        <a href="/works/SkegonDanceStudio/price.html">
+                        <a href="/works/SkegonDanceStudio/price.php">
                             <img src="img/fv.jpg" class="card-img-top" alt="格安プランイメージ">
                         </a>
                     </div> 
                     <div class="card-body">
                         <h5 class="card-title">格安なレッスン</h5>
                         <p class="card-text">豊富なレッスン量からお好きな<br>曜日・時間を選択して受講いただけます。<br>格安な料金設定で気軽に始めることができます。</p>
-                        <a href="/works/SkegonDanceStudio/price.html" class="px-5 py-2 btn btn-outline-info">詳細</a>
+                        <a href="/works/SkegonDanceStudio/price.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
                     </div>
                   </div>
                 </div>
@@ -98,16 +63,12 @@
                   </div>
                 </div>
               </section>
-              <a href="/works/SkegonDanceStudio/gallary.html" class="px-5 py-2 btn btn-outline-info">詳細</a>
+              <a href="/works/SkegonDanceStudio/gallary.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
         </div>
     </div>
-<footer class="text-white py-3 text-center">
-    <p class="px-5">山県市総合体育館(岐阜県山県市高木1675)<br>
-      MAIL kegon8808@gamail.com<br>
-      TEL 090-9338-5595
-    </p>
-    <p class="mb-0 text-center">Copyright © 2020 Sukegon Dance Studio All Right Reserved.</p>
-</footer>  
+<?php
+require_once('footer.php');
+?>
 </body>
 </html>
 <script src="js/main.js" type="text/javascript"></script>
