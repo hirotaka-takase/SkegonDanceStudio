@@ -22,6 +22,11 @@
 .wf-sawarabigothic { 
   font-family: "Sawarabi Gothic";
 }
+.alert {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 /* ページスクロールボタン */
 .page-top{

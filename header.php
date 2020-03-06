@@ -20,7 +20,7 @@
     <script src="https://unpkg.com/@popperjs/core@^2.0.0"></script>
     <script src="js/parallax.min.js"></script>
 </head>
-<body class="wf-sawarabigothic">
+<body class="wf-sawarabigothic" style="posision: relative;">
     <a class="menu">
         <span class="menu__line menu__line--top"></span>
         <span class="menu__line menu__line--center"></span>
