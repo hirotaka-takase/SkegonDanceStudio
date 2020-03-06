@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
     <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@^2.0.0"></script>
     <script src="js/parallax.min.js"></script>
 </head>
-<body>
+<body class="wf-sawarabigothic">
     <a class="menu">
         <span class="menu__line menu__line--top"></span>
         <span class="menu__line menu__line--center"></span>

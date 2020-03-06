@@ -19,6 +19,9 @@
   opacity : 1;
   transform : translate(0, 0);
 }
+.wf-sawarabigothic { 
+  font-family: "Sawarabi Gothic";
+}
 
 /* ページスクロールボタン */
 .page-top{
@@ -119,7 +122,7 @@
     height: 100vh;
 }
 .fv h2 {
-    font-size: 50px;
+    font-size: 45px;
 }
 .fv a{
    color: #fff!important;
