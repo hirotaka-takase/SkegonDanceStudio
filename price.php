@@ -23,7 +23,7 @@ require_once('header.php');
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">17::00~18:00</th>
+                    <th scope="row">17:00~18:00</th>
                     <td>SKEGON<br>ジュニア初級<br>BREAKIN</td>
                     <td></td>
                     <td></td>
@@ -32,7 +32,7 @@ require_once('header.php');
                     <td>SKEGON<br>ジュニア初級<br>BREAKIN</td>
                   </tr>
                   <tr>
-                    <th scope="row">17::15~18:00</th>
+                    <th scope="row">17:15~18:00</th>
                     <td></td>
                     <td>RuKa<br>キッズ初級<br>HIPHOP</td>
                     <td></td>
@@ -41,7 +41,7 @@ require_once('header.php');
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">18::00~20:00</th>
+                    <th scope="row">18:00~20:00</th>
                     <td></td>
                     <td></td>
                     <td>開放練習会</td>
@@ -50,7 +50,7 @@ require_once('header.php');
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">18::15~19:15</th>
+                    <th scope="row">18:15~19:15</th>
                     <td>SKEGON<br>ジュニア中級<br>BREAKIN</td>
                     <td>Ruka<br>ジュニア初級<br>HIPHOP</td>
                     <td></td>
@@ -59,7 +59,7 @@ require_once('header.php');
                     <td>SKEGON<br>ジュニア中級<br>BREAKIN</td>
                   </tr>
                   <tr>
-                    <th scope="row">19::00~20:00</th>
+                    <th scope="row">19:00~20:00</th>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -68,7 +68,7 @@ require_once('header.php');
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">19::30~20:30</th>
+                    <th scope="row">19:30~20:30</th>
                     <td>SKEGON<br>ボディコントロール<br>クラス</td>
                     <td>RUE<br>ジュニア中級<br>HIPHOP</td>
                     <td></td>
@@ -77,7 +77,7 @@ require_once('header.php');
                     <td>SKEGON<br>ジュニア中中級<br>BREAKIN</td>
                   </tr>
                   <tr>
-                    <th scope="row">19::30~21:00</th>
+                    <th scope="row">19:30~21:00</th>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -86,7 +86,7 @@ require_once('header.php');
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">20::15~21:15</th>
+                    <th scope="row">20:15~21:15</th>
                     <td></td>
                     <td></td>
                     <td>Reo<br>ジュニア中級<br>HIPHOP</td>
