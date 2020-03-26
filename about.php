@@ -17,7 +17,7 @@ require_once('header.php');
                   <div class="card">
                     <div class="imgWrap">
                         <a href="/teacher.php">
-                            <img src="img/fv.jpg" class="card-img-top" alt="インストラクターイメージ">
+                            <img src="img/instance.jpg" class="card-img-top" alt="インストラクターイメージ">
                         </a>
                     </div>
                     <div class="card-body">
@@ -31,7 +31,7 @@ require_once('header.php');
                   <div class="card">
                     <div class="imgWrap">
                         <a href="/price.php">
-                            <img src="img/fv.jpg" class="card-img-top" alt="格安プランイメージ">
+                            <img src="img/instance.jpg" class="card-img-top" alt="格安プランイメージ">
                         </a>
                     </div> 
                     <div class="card-body">
