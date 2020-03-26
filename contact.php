@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         <div class="inner fadein text-center pt-5 pb-5 text-white">
             <h3 class="py-3">お問い合わせ</h3>
             <p class="mb-5">体験レッスンの受付、その他質問など<br>お気軽にお問い合わせください</p>
-            <form method="POST" action="/works/SkegonDanceStudio/contact.php">
+            <form method="POST" action="/contact.php">
                 <div class="form-group">
                     <input type="input" name="name" value="<?php echo $name; ?>" class="form-control" id="name" placeholder="(受講者の）お名前">
                 </div>

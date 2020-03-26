@@ -16,28 +16,28 @@ require_once('header.php');
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="imgWrap">
-                        <a href="/works/SkegonDanceStudio/teacher.php">
+                        <a href="/teacher.php">
                             <img src="img/fv.jpg" class="card-img-top" alt="インストラクターイメージ">
                         </a>
                     </div>
                     <div class="card-body">
                       <h5 class="card-title">経験豊かな講師陣</h5>
                       <p class="card-text">Skegon Dance Studioでは経験豊かな<br class="pc">講師陣を揃え初めてダンスを習う人や<br class="pc">経験者まで幅広く育成・指導を行っています。</p>
-                      <a href="/works/SkegonDanceStudio/teacher.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
+                      <a href="/teacher.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="imgWrap">
-                        <a href="/works/SkegonDanceStudio/price.php">
+                        <a href="/price.php">
                             <img src="img/fv.jpg" class="card-img-top" alt="格安プランイメージ">
                         </a>
                     </div> 
                     <div class="card-body">
                         <h5 class="card-title">格安なレッスン</h5>
                         <p class="card-text">豊富なレッスン量からお好きな<br class="pc">曜日・時間を選択して受講いただけます。<br class="pc">格安な料金設定で気軽に始めることができます。</p>
-                        <a href="/works/SkegonDanceStudio/price.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
+                        <a href="/price.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
                     </div>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ require_once('header.php');
                   </div>
                 </div>
               </section>
-              <a href="/works/SkegonDanceStudio/gallary.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
+              <a href="/gallary.php" class="px-5 py-2 btn btn-outline-info">詳細</a>
         </div>
     </div>
 <?php

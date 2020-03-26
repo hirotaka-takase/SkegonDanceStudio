@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$title ?? "Skegon Dance Studio" ?></title>
     <meta name="description" content="<?=$description ?? "Skegon Dance Studioは岐阜県山県市を拠点とするDance Studioです。ストリートダンスシーンにおいて世界大会に出場経験をもち、現在も第一線で活躍する個性あふれるインストラクターが指導してくれます。" ?>" />
-    <meta property="og:url" content="URL" />
-    <meta property="og:title" content="タイトル" />
+    <meta property="og:url" content="https://skegondancestudio.com/" />
+    <meta property="og:title" content="SkegonDanceStudio" />
     <meta property="og:description" content="抜粋" />
     <meta property="og:image" content="画像のURL" />
     <meta property="og:type" content="タイプ">
-    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:site_name" content="SkegonDanceStudio" />
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -29,11 +29,11 @@
     <nav class="gnav">
         <div class="gnav__wrap">
             <ul class="gnav__menu">
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/about.php">スタジオ</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/teacher.php">インストラクター</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/price.php">スケジュール・<br>料金</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/gallary.php">写真</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/contact.php">お問い合わせ</a></li>
+                <li class="gnav__menu__item"><a href="/about.php">スタジオ</a></li>
+                <li class="gnav__menu__item"><a href="/teacher.php">インストラクター</a></li>
+                <li class="gnav__menu__item"><a href="/price.php">スケジュール・<br>料金</a></li>
+                <li class="gnav__menu__item"><a href="/gallary.php">写真</a></li>
+                <li class="gnav__menu__item"><a href="/contact.php">お問い合わせ</a></li>
             </ul>
         </div>
     </nav>
@@ -42,7 +42,7 @@
         <div class="py-5 d-flex justify-content-center align-items-end">
             <div class="text-center pt-5">
                 <h2 class="mb-5 text-white animated flipInX animation-speed"><?=$fv_title ?? "Skegon Dance Studio" ?></h2>
-                <a class="btn px-5 py-3 btn-info btn-lg" href="/works/SkegonDanceStudio/contact.php">体験予約</a>    
+                <a class="btn px-5 py-3 btn-info btn-lg" href="/contact.php">体験予約</a>    
             </div>
         </div>
         <p class="page-top">
