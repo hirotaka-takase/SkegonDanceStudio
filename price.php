@@ -1,62 +1,29 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skegon Dance Studio</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@^2.0.0"></script>
-    <script src="js/parallax.min.js"></script>
-</head>
-<body>
-    <a class="menu">
-        <span class="menu__line menu__line--top"></span>
-        <span class="menu__line menu__line--center"></span>
-        <span class="menu__line menu__line--bottom"></span>
-    </a>
-    <nav class="gnav">
-        <div class="gnav__wrap">
-            <ul class="gnav__menu">
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/about.html">About</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/teacher.html">Teacher</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/price.html">Price・Schedule</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/gallary.html">Gallary</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="fv parallax-window">
-      <p class="px-4 py-3"><a href="/works/SkegonDanceStudio"><img src="img/logo.png" alt="スタジオロゴ" width="150" height="70"></a></p>
-      <div class="py-5 d-flex justify-content-center align-items-center">
-          <div class="text-center">
-              <h2 class="lead text-white animated flipInX animation-speed">Skegon<br>Dance<br>Studio</h2>
-              <a class="btn px-5 py-3 btn-info btn-lg" href="/works/SkegonDanceStudio/contact.html">体験予約</a>    
-          </div>
-      </div>
-    </div>
+<?php
+$title = "スケジュール・料金";
+$description = "岐阜県山県市を拠点とするSkegon Dance Studioでダンスを始めてみませんか？格安価格、豊富なダンスレッスンでお待ちしております。";
+$fv_title = "スケジュール・料金";
+require_once('header.php');
+?>
     <div id="schedule" style="background: #13171d!important">
         <div class="inner fadein text-center pt-5 pb-5 text-white">
             <h3 class="py-3">スケジュール</h3>
             <p class="mb-5">
-                Skegon Dance Studioでは、世界大会に出場経験をもち<br>
+                Skegon Dance Studioでは、世界大会に出場経験をもち<br class="pc">
                 現在も第一線で活躍する個性あふれるインストラクターが指導を行っています。</p>
             <div class="table-responsive">
-            <table class="table table-hover table-bordered table-dark">
+            <table style="table-layout:fixed;" class="table table-hover table-bordered table-dark">
                 <thead>
                   <tr>
-                    <th scope="col"></th>
-                    <th scope="col" colspan="2">月</th>
-                    <th scope="col" colspan="2">火</th>
-                    <th scope="col">水</th>
-                    <th scope="col">木</th>
+                    <th style="width:150px;" scope="col"></th>
+                    <th style="width:300px;" scope="col" colspan="2">月</th>
+                    <th style="width:300px;" scope="col" colspan="2">火</th>
+                    <th style="width:150px;" scope="col">水</th>
+                    <th style="width:150px;" scope="col">木</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">17::00~18:00</th>
+                    <th scope="row">17:00~18:00</th>
                     <td>SKEGON<br>ジュニア初級<br>BREAKIN</td>
                     <td></td>
                     <td></td>
@@ -65,16 +32,16 @@
                     <td>SKEGON<br>ジュニア初級<br>BREAKIN</td>
                   </tr>
                   <tr>
-                    <th scope="row">17::15~18:00</th>
+                    <th scope="row">17:15~18:00</th>
                     <td></td>
-                    <td>Ruka<br>キッズ初級<br>HIPHOP</td>
+                    <td>RuKa<br>キッズ初級<br>HIPHOP</td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">18::00~20:00</th>
+                    <th scope="row">18:00~20:00</th>
                     <td></td>
                     <td></td>
                     <td>開放練習会</td>
@@ -83,7 +50,7 @@
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">18::15~19:15</th>
+                    <th scope="row">18:15~19:15</th>
                     <td>SKEGON<br>ジュニア中級<br>BREAKIN</td>
                     <td>Ruka<br>ジュニア初級<br>HIPHOP</td>
                     <td></td>
@@ -92,7 +59,7 @@
                     <td>SKEGON<br>ジュニア中級<br>BREAKIN</td>
                   </tr>
                   <tr>
-                    <th scope="row">19::00~20:00</th>
+                    <th scope="row">19:00~20:00</th>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -101,16 +68,16 @@
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">19::30~20:30</th>
+                    <th scope="row">19:30~20:30</th>
                     <td>SKEGON<br>ボディコントロール<br>クラス</td>
-                    <td>Rue<br>ジュニア中級<br>HIPHOP</td>
+                    <td>RUE<br>ジュニア中級<br>HIPHOP</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>SKEGON<br>ジュニア初級<br>BREAKIN</td>
+                    <td>SKEGON<br>ジュニア中級<br>BREAKIN</td>
                   </tr>
                   <tr>
-                    <th scope="row">19::30~21:00</th>
+                    <th scope="row">19:30~21:00</th>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -119,7 +86,7 @@
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">20::15~21:15</th>
+                    <th scope="row">20:15~21:15</th>
                     <td></td>
                     <td></td>
                     <td>Reo<br>ジュニア中級<br>HIPHOP</td>
@@ -135,9 +102,6 @@
     <div id="price" style="background:  #222831;">
         <div class="inner fadein text-center pt-5 pb-5 text-white">
             <h3 class="py-3">料金表</h3>
-            <p class="mb-5">
-                Skegon Dance Studioでは、なるべく多くの<br>
-                方に受講して頂けるよう、低価格でダンスレッスンを行っています</p>
             <ul class="list-group list-group-flush" style="width: 300px; margin: 0 auto; background: transparent">
                 <li class="list-group-item">
                     初期費用<br>
@@ -169,13 +133,6 @@
               </ul> 
         </div>
     </div>
-<footer class="text-white py-3 text-center">
-    <p class="px-5">山県市総合体育館(岐阜県山県市高木1675)<br>
-      MAIL kegon8808@gamail.com<br>
-      TEL 090-9338-5595
-    </p>
-    <p class="mb-0 text-center">Copyright © 2020 Sukegon Dance Studio All Right Reserved.</p>
-</footer>
-</body>   
-</html>
-<script src="js/main.js" type="text/javascript"></script>
+<?php
+require_once('footer.php');
+?>

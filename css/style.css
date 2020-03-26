@@ -10,6 +10,9 @@
     margin: 0 auto;
     width: 1000px;
 }
+.pc {
+  display: block;
+}
 .fadein {
   opacity : 0;
   transform : translate(50px, 0);
@@ -18,6 +21,34 @@
 .fadein.scrollin {
   opacity : 1;
   transform : translate(0, 0);
+}
+.wf-sawarabigothic { 
+  font-family: "Sawarabi Gothic";
+}
+.alert {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ページスクロールボタン */
+.page-top{
+  position:fixed;
+  bottom:20px;
+  right:40px;
+  z-index: 100;
+}
+.page-top a{
+  display: table-cell;
+  vertical-align: middle;  
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+  background-color: #17a2b8;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;  
 }
 
 /* fv */
@@ -28,6 +59,9 @@
     top: 20px;
     width: 30px;
     z-index: 99;
+}
+.menu:hover {
+  cursor: pointer;
 }
 .menu__line{
     background: #fff;
@@ -73,7 +107,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 170px;
+    width: 260px;
 }
 .gnav__menu__item{
     margin: 40px 0 40px 100px;
@@ -81,7 +115,7 @@
 }
 .gnav__menu__item a{
     color: #fff;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: bold;
     text-decoration: none;
     transition: .5s;
@@ -95,8 +129,8 @@
     background-size: cover;
     height: 100vh;
 }
-.fv h1, .fv h2 {
-    font-size: 80px;
+.fv h2 {
+    font-size: 45px;
 }
 .fv a{
    color: #fff!important;
@@ -111,6 +145,11 @@
 }
 
 /* about */
+h1 {
+  border-bottom: 1px solid #17a2b8;
+  width: 450px;
+  margin: 0 auto 20px;
+}
 .about_intro{
     background: #13171d!important;
 }
@@ -262,15 +301,83 @@ footer {
     background: #13171d!important;
 }
 
-/* ------------ スマホ -------------- */
+/* ---------------------- スマホ -------------------------- */
 @media screen and (max-width:768px) { 
-  .inner{
-    width: 100%!important;
-    padding: 0 2.5%;
-  }
-  form {
-    width: 100%;
-  }
+/* サイト全体の設定 */
+.inner{
+  width: 100%!important;
+  padding: 0 2.5%;
+}
+
+.pc {
+  display: none;
+}
+
+.fadein {
+  transform : translate(0, 0);
+}
+
+.alert {
+width: 90%;
+}
+
+.page-top{
+  right:10px;
+}
+
+/* fv */
+.gnav__menu__item a{
+  font-size: 1.3em;
+}
+
+.fv{
+  background-position: 50% 0;
+}
+.fv h2 {
+  font-size: 35px;
+}
+.parallax-window {
+  min-height: 600px;
+}
+/* about */
+h1 {
+width: 100%;
+}
+
+.about_intro .card:first-child {
+margin: 0 0 30px;
+}
+
+#slideshow {/*全体*/
+  height: 280px;
+}
+ 
+/*個々の画像設定*/
+.content-carrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(110px);
+}
+.content-carrousel figure:nth-child(2) {
+  transform: rotateY(90deg) translateZ(110px);
+}
+.content-carrousel figure:nth-child(3) {
+  transform: rotateY(180deg) translateZ(110px);
+}
+.content-carrousel figure:nth-child(4) {
+  transform: rotateY(270deg) translateZ(110px);
+}
+.content-carrousel figure:nth-child(5) {
+  transform: rotateY(360deg) translateZ(110px);
+}
+
+/* price */
+#schedule table td {
+height: 100px;
+}
+
+/* form */
+form {
+width: 100%;
+}
 
 }
 

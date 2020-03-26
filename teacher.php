@@ -1,48 +1,15 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>インストラクター</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@^2.0.0"></script>
-    <script src="js/parallax.min.js"></script>
-</head>
-<body>
-    <a class="menu">
-        <span class="menu__line menu__line--top"></span>
-        <span class="menu__line menu__line--center"></span>
-        <span class="menu__line menu__line--bottom"></span>
-    </a>
-    <nav class="gnav">
-        <div class="gnav__wrap">
-            <ul class="gnav__menu">
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/about.html">About</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/teacher.html">Teacher</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/price.html">Price・Schedule</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/gallary.html">Gallary</a></li>
-                <li class="gnav__menu__item"><a href="/works/SkegonDanceStudio/contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="fv parallax-window">
-        <p class="px-4 py-3"><a href="/works/SkegonDanceStudio"><img src="img/logo.png" alt="スタジオロゴ" width="150" height="70"></a></p>
-        <div class="py-5 d-flex justify-content-center align-items-center">
-            <div class="text-center">
-                <h2 class="lead text-white animated flipInX animation-speed">Our<br>Instructors</h2>
-                <a class="btn px-5 py-3 btn-info btn-lg" href="/works/SkegonDanceStudio/contact.html">体験予約</a>    
-            </div>
-        </div>
-    </div>
+<?php
+$title = "インストラクター";
+$description = "岐阜県山県市を拠点とするSkegon Dance Studioの講師陣たちです。ストリートダンスシーンにおいて世界大会に出場経験を持つ人を始め、実力あるインストラクターからのダンスレッスンを受けてみませんか？";
+$fv_title = "インストラクター";
+require_once('header.php');
+?>
     <div id="teacher">
         <div class="bg-another-black">
             <div class="inner fadein text-center pt-5 pb-5 text-white">
                 <h3 class="py-3">Skegon Dance Studioの講師人</h3>
                 <p class="mb-5">
-                    ブレイクダンス、ロックダンス、ヒップホップダンス<br>
+                    ブレイクダンス、ロックダンス、ヒップホップダンス<br class="pc">
                     の3つのストリートダンスを幼児からを対象にレッスンを行っています。</p>
                 <div class="card">
                     <div class="row no-gutters">
@@ -117,7 +84,7 @@
                     <div class="row no-gutters">
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">RUKA</h5>
+                                <h5 class="card-title">RuKa</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
@@ -138,7 +105,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Rue</h5>
+                                <h5 class="card-title">RUE</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
@@ -148,13 +115,6 @@
             </div>
         </div>
     </div>
-<footer class="text-white py-3 text-center">
-    <p class="px-5">山県市総合体育館(岐阜県山県市高木1675)<br>
-      MAIL Skegon8808@gamail.com<br>
-      TEL 090-9338-5595
-    </p>
-    <p class="mb-0 text-center">Copyright © 2020 Sukegon Dance Studio All Right Reserved.</p>
-</footer>
-</body>   
-</html>
-<script src="js/main.js" type="text/javascript"></script>
+<?php
+require_once('footer.php');
+?>
