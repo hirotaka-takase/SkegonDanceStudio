@@ -344,6 +344,11 @@ h1 {
 width: 100%;
 }
 
+.about_intro .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .about_intro .card:first-child {
 margin: 0 0 30px;
 }
