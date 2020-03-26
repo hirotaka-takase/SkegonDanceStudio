@@ -8,17 +8,17 @@ require_once('header.php');
         <div class="inner fadein text-center pt-5 pb-5 text-white">
             <h3 class="py-3">スケジュール</h3>
             <p class="mb-5">
-                Skegon Dance Studioでは、世界大会に出場経験をもち<br>
+                Skegon Dance Studioでは、世界大会に出場経験をもち<br class="pc">
                 現在も第一線で活躍する個性あふれるインストラクターが指導を行っています。</p>
             <div class="table-responsive">
-            <table class="table table-hover table-bordered table-dark">
+            <table style="table-layout:fixed;" class="table table-hover table-bordered table-dark">
                 <thead>
                   <tr>
-                    <th scope="col"></th>
-                    <th scope="col" colspan="2">月</th>
-                    <th scope="col" colspan="2">火</th>
-                    <th scope="col">水</th>
-                    <th scope="col">木</th>
+                    <th style="width:150px;" scope="col"></th>
+                    <th style="width:300px;" scope="col" colspan="2">月</th>
+                    <th style="width:300px;" scope="col" colspan="2">火</th>
+                    <th style="width:150px;" scope="col">水</th>
+                    <th style="width:150px;" scope="col">木</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -74,7 +74,7 @@ require_once('header.php');
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>SKEGON<br>ジュニア中中級<br>BREAKIN</td>
+                    <td>SKEGON<br>ジュニア中級<br>BREAKIN</td>
                   </tr>
                   <tr>
                     <th scope="row">19:30~21:00</th>

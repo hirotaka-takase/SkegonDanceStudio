@@ -9,7 +9,7 @@ require_once('header.php');
             <div class="inner fadein text-center pt-5 pb-5 text-white">
                 <h3 class="py-3">Skegon Dance Studioの講師人</h3>
                 <p class="mb-5">
-                    ブレイクダンス、ロックダンス、ヒップホップダンス<br>
+                    ブレイクダンス、ロックダンス、ヒップホップダンス<br class="pc">
                     の3つのストリートダンスを幼児からを対象にレッスンを行っています。</p>
                 <div class="card">
                     <div class="row no-gutters">

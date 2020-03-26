@@ -10,6 +10,9 @@
     margin: 0 auto;
     width: 1000px;
 }
+.pc {
+  display: block;
+}
 .fadein {
   opacity : 0;
   transform : translate(50px, 0);
@@ -298,15 +301,83 @@ footer {
     background: #13171d!important;
 }
 
-/* ------------ スマホ -------------- */
+/* ---------------------- スマホ -------------------------- */
 @media screen and (max-width:768px) { 
-  .inner{
-    width: 100%!important;
-    padding: 0 2.5%;
-  }
-  form {
-    width: 100%;
-  }
+/* サイト全体の設定 */
+.inner{
+  width: 100%!important;
+  padding: 0 2.5%;
+}
+
+.pc {
+  display: none;
+}
+
+.fadein {
+  transform : translate(0, 0);
+}
+
+.alert {
+width: 90%;
+}
+
+.page-top{
+  right:10px;
+}
+
+/* fv */
+.gnav__menu__item a{
+  font-size: 1.3em;
+}
+
+.fv{
+  background-position: 50% 0;
+}
+.fv h2 {
+  font-size: 35px;
+}
+.parallax-window {
+  min-height: 600px;
+}
+/* about */
+h1 {
+width: 100%;
+}
+
+.about_intro .card:first-child {
+margin: 0 0 30px;
+}
+
+#slideshow {/*全体*/
+  height: 280px;
+}
+ 
+/*個々の画像設定*/
+.content-carrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(110px);
+}
+.content-carrousel figure:nth-child(2) {
+  transform: rotateY(90deg) translateZ(110px);
+}
+.content-carrousel figure:nth-child(3) {
+  transform: rotateY(180deg) translateZ(110px);
+}
+.content-carrousel figure:nth-child(4) {
+  transform: rotateY(270deg) translateZ(110px);
+}
+.content-carrousel figure:nth-child(5) {
+  transform: rotateY(360deg) translateZ(110px);
+}
+
+/* price */
+#schedule table td {
+height: 100px;
+}
+
+/* form */
+form {
+width: 100%;
+}
 
 }
 

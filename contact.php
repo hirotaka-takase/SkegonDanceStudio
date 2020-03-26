@@ -8,20 +8,19 @@ function e(string $str,string $charset = 'UTF-8'):string {
     return htmlspecialchars($str,ENT_QUOTES | ENT_HTML5, $charset);
 }
 
+$err_msg = '';
+$complete_msg = '';
+
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     $name = '';
     $email = '';
     $tel = '';
     $content = '';
-    $err_msg = '';
-    $complete_msg = '';
 }else {
     $name = e($_POST['name']);
     $email = e($_POST['email']);
     $tel = e($_POST['tel']);
     $content = e($_POST['content']);
-    $err_msg = '';
-    $complete_msg = '';
 
     if($name == '' || $email == '' || $tel == '' || $content == '') {
         $err_msg = '送信に失敗しました。全ての項目を入力してください';
