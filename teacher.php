@@ -114,6 +114,24 @@ require_once('header.php');
                 </div>    
             </div>
         </div>
+  <!--      <div class="bg-black">
+            <div class="inner fadein text-center pt-5 pb-5 text-white">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">MiKA</h5>
+                                <p class="card-text"></p>
+                                <p class="card-text"><small class="text-muted">HIPHOP</small></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/ruka.jpg" class="card-img" alt="ミカ">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>-->
     </div>
 <?php
 require_once('footer.php');
