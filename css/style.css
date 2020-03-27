@@ -385,7 +385,7 @@ margin: 0 0 30px;
 
 /* price */
 #schedule table th.wide-simple {
-  width: 90px!important;
+  width: 100px!important;
 }
 
 #schedule table th.wide-simple:first-child {
