@@ -37,7 +37,7 @@
         </div>
     </nav>
     <div class="fv parallax-window">
-        <p class="px-4"><a href="/"><img src="img/logo.png" alt="スタジオロゴ" width="150" height="70"></a></p>
+        <p class="px-4"><a href="/"><img src="img/logo.png" alt="スタジオロゴ" width="150" height="90"></a></p>
         <div class="py-5 d-flex justify-content-center align-items-end">
             <div class="text-center pt-5">
                 <h2 class="mb-5 text-white animated flipInX animation-speed"><?=$fv_title ?? "Skegon Dance Studio" ?></h2>

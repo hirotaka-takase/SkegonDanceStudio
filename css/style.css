@@ -340,6 +340,14 @@ width: 90%;
 .parallax-window {
   min-height: 550px;
 }
+
+.parallax-window p:first-child {
+  text-align: center;
+}
+.parallax-window img {
+  width: 130px;
+  height: 70px;
+}
 /* about */
 h1 {
 width: 100%;
