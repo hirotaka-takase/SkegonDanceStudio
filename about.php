@@ -17,7 +17,7 @@ require_once('header.php');
                   <div class="card">
                     <div class="imgWrap">
                         <a href="/teacher.php">
-                            <img src="img/instance.jpg" class="card-img-top" alt="インストラクターイメージ">
+                            <img src="img/about_left.jpg" class="card-img-top" alt="インストラクターイメージ">
                         </a>
                     </div>
                     <div class="card-body">
@@ -31,7 +31,7 @@ require_once('header.php');
                   <div class="card">
                     <div class="imgWrap">
                         <a href="/price.php">
-                            <img src="img/instance.jpg" class="card-img-top" alt="格安プランイメージ">
+                            <img src="img/about_right.jpg" class="card-img-top" alt="格安プランイメージ">
                         </a>
                     </div> 
                     <div class="card-body">
@@ -53,15 +53,15 @@ require_once('header.php');
             <section id="slideshow">
                 <div class="entire-content">
                   <div class="content-carrousel">
-                    <figure class="shadow"><img src="https://picsum.photos/200/300"/></figure>
-                    <figure class="shadow"><img src="https://picsum.photos/201/300"/></figure>
-                    <figure class="shadow"><img src="https://picsum.photos/202/300"/></figure>
-                    <figure class="shadow"><img src="https://picsum.photos/203/300"/></figure>
-                    <figure class="shadow pc"><img src="https://picsum.photos/204/300"/></figure>
-                    <figure class="shadow pc"><img src="https://picsum.photos/205/300"/></figure>
-                    <figure class="shadow pc"><img src="https://picsum.photos/206/300"/></figure>
-                    <figure class="shadow pc"><img src="https://picsum.photos/207/300"/></figure>
-                    <figure class="shadow pc"><img src="https://picsum.photos/208/300"/></figure>
+                    <figure class="shadow"><img src="./img/gallary/pic1.jpg"/></figure>
+                    <figure class="shadow"><img src="./img/gallary/pic2.jpg"/></figure>
+                    <figure class="shadow"><img src="./img/gallary/pic3.jpg"/></figure>
+                    <figure class="shadow"><img src="./img/gallary/pic4.jpg"/></figure>
+                    <figure class="shadow pc"><img src="./img/gallary/pic5.jpg"/></figure>
+                    <figure class="shadow pc"><img src="./img/gallary/pic6.jpg"/></figure>
+                    <figure class="shadow pc"><img src="./img/gallary/pic7.jpg"/></figure>
+                    <figure class="shadow pc"><img src="./img/gallary/pic8.jpg"/></figure>
+                    <figure class="shadow pc"><img src="./img/gallary/pic9.jpg"/></figure>
                   </div>
                 </div>
               </section>
