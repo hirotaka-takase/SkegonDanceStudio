@@ -14,11 +14,11 @@ require_once('header.php');
             <table style="table-layout:fixed;" class="table table-hover table-bordered table-dark">
                 <thead>
                   <tr>
-                    <th style="width:150px;" scope="col"></th>
-                    <th style="width:300px;" scope="col" colspan="2">月</th>
-                    <th style="width:300px;" scope="col" colspan="2">火</th>
-                    <th style="width:150px;" scope="col">水</th>
-                    <th style="width:150px;" scope="col">木</th>
+                    <th class="wide-simple" scope="col"></th>
+                    <th class="wide-double" scope="col" colspan="2">月</th>
+                    <th class="wide-double" scope="col" colspan="2">火</th>
+                    <th class="wide-simple" scope="col">水</th>
+                    <th class="wide-simple" scope="col">木</th>
                   </tr>
                 </thead>
                 <tbody>
