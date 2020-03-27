@@ -4,10 +4,16 @@ $description = "岐阜県山県市を拠点とするSkegon Dance Studioでの普
 $fv_title = "ギャラリー";
 require_once('header.php');
 ?>
-    <div id="price" style="background:  #222831;">
-        <div class="inner fadein text-center pt-5 pb-5 text-white">
-            <h3 class="py-3">Gallary</h3>
-            <p class="mb-5">写真のアップロードまで少々お待ちください</p>
+    <div id="gallary" style="background:  #222831;">
+        <div class="inner fadein  pt-5 pb-5 text-white">
+            <h3 class="py-3 text-center">Gallary</h3>
+            <div class="d-flex flex-wrap justify-content-center wrapper">
+                <?php for($i = 1; $i <= 11; $i++) { ?>
+                <div class="wrapper-item">
+                    <img src="./img/gallary/pic<?= $i ?>.jpg" width="100%">
+                </div>
+                <?php } ?>
+            </div>
         </div>
     </div>
 <?php
