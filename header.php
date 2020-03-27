@@ -7,9 +7,8 @@
     <meta name="description" content="<?=$description ?? "Skegon Dance Studioは岐阜県山県市を拠点とするDance Studioです。ストリートダンスシーンにおいて世界大会に出場経験をもち、現在も第一線で活躍する個性あふれるインストラクターが指導してくれます。" ?>" />
     <meta property="og:url" content="https://skegondancestudio.com/" />
     <meta property="og:title" content="SkegonDanceStudio" />
-    <meta property="og:type" content="website">
     <meta property="og:description" content="Skegon Dance Studioは岐阜県山県市を拠点とするDance Studioです。ストリートダンスシーンにおいて世界大会に出場経験をもち、現在も第一線で活躍する個性あふれるインストラクターが指導してくれます。" />
-    <meta property="og:image" content="https://skegondancestudio.com/img/logo.jpg" />
+    <meta property="og:image" content="./img/logo.jpg" />
     <meta property="og:site_name" content="SkegonDanceStudio" />
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
