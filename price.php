@@ -11,10 +11,12 @@ require_once('header.php');
                 Skegon Dance Studioでは、世界大会に出場経験をもち<br class="pc">
                 現在も第一線で活躍する個性あふれるインストラクターが指導を行っています。</p>
             <div class="table-responsive">
+            <span class="small text-danger">※月曜は北方町でもレッスンを行っております</span>
             <table style="table-layout:fixed;" class="table table-hover table-bordered table-dark">
                 <thead>
                   <tr>
                     <th class="wide-simple" scope="col"></th>
+                    <th class="wide-simple" scope="col">月 (北方)</th>
                     <th class="wide-double" scope="col" colspan="2">月</th>
                     <th class="wide-double" scope="col" colspan="2">火</th>
                     <th class="wide-simple" scope="col">水</th>
@@ -24,6 +26,7 @@ require_once('header.php');
                 <tbody>
                   <tr>
                     <th scope="row">17:00~18:00</th>
+                    <td></td>
                     <td>SKEGON<br>ジュニア初級<br>BREAKIN</td>
                     <td></td>
                     <td></td>
@@ -33,6 +36,7 @@ require_once('header.php');
                   </tr>
                   <tr>
                     <th scope="row">17:15~18:00</th>
+                    <td>Mika<br>小学1年〜<br>４年<br>HIPHOP</td>
                     <td></td>
                     <td>RuKa<br>キッズ初級<br>HIPHOP</td>
                     <td></td>
@@ -44,6 +48,7 @@ require_once('header.php');
                     <th scope="row">18:00~20:00</th>
                     <td></td>
                     <td></td>
+                    <td></td>
                     <td>開放練習会</td>
                     <td></td>
                     <td></td>
@@ -51,6 +56,7 @@ require_once('header.php');
                   </tr>
                   <tr>
                     <th scope="row">18:15~19:15</th>
+                    <td>MiKA<br>小学5年〜<br>中学3年<br>HIPHOP</td>
                     <td>SKEGON<br>ジュニア中級<br>BREAKIN</td>
                     <td>Ruka<br>ジュニア初級<br>HIPHOP</td>
                     <td></td>
@@ -63,12 +69,14 @@ require_once('header.php');
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                     <td>Karin<br>ジュニア初級<br>LOCK</td>
                     <td></td>
                     <td></td>
                   </tr>
                   <tr>
                     <th scope="row">19:30~20:30</th>
+                    <td></td>
                     <td>SKEGON<br>ボディコントロール<br>クラス</td>
                     <td>RUE<br>ジュニア中級<br>HIPHOP</td>
                     <td></td>
@@ -82,11 +90,13 @@ require_once('header.php');
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                     <td>SKEGON<br>ストリート<br>BREAKIN</td>
                     <td></td>
                   </tr>
                   <tr>
                     <th scope="row">20:15~21:15</th>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td>Reo<br>ジュニア中級<br>HIPHOP</td>
