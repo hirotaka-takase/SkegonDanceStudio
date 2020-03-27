@@ -14,7 +14,7 @@ require_once('header.php');
                 <div class="card">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="img/skegon.jpg" class="card-img" alt="...">
+                            <img src="img/skegon.jpg" class="card-img" alt="スケゴン">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -49,7 +49,7 @@ require_once('header.php');
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <img src="img/karin.jpg" class="card-img" alt="...">
+                            <img src="img/karin.jpg" class="card-img" alt="カリン">
                         </div>
                     </div>
                 </div>    
@@ -60,7 +60,7 @@ require_once('header.php');
                 <div class="card">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="img/reo.jpg" class="card-img" alt="...">
+                            <img src="img/reo.jpg" class="card-img" alt="レオ">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -85,12 +85,12 @@ require_once('header.php');
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">RuKa</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"></p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <img src="img/ruka.jpg" class="card-img" alt="...">
+                            <img src="img/ruka.jpg" class="card-img" alt="ルカ">
                         </div>
                     </div>
                 </div>    
@@ -101,12 +101,12 @@ require_once('header.php');
                 <div class="card">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="img/rue.jpg" class="card-img" alt="...">
+                            <img src="img/rue.jpg" class="card-img" alt="ルエ">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">RUE</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"></p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
                         </div>
