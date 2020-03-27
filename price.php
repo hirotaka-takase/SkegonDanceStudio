@@ -36,7 +36,7 @@ require_once('header.php');
                   </tr>
                   <tr>
                     <th scope="row">17:15~18:00</th>
-                    <td>Mika<br>小学1年〜<br>４年<br>HIPHOP</td>
+                    <td>MiKA<br>小学1年〜<br>４年<br>HIPHOP</td>
                     <td></td>
                     <td>RuKa<br>キッズ初級<br>HIPHOP</td>
                     <td></td>
