@@ -392,23 +392,6 @@ margin: 0 0 30px;
   transform: rotateY(360deg) translateZ(110px);
 }
 
-/* price */
-#schedule table th.wide-simple {
-  width: 100px!important;
-}
-
-#schedule table th.wide-simple:first-child {
-  width: 110px!important;
-}
-
-#schedule table th.wide-double {
-  width: 180px!important;
-}
-
-#schedule table td {
-height: 100px;
-}
-
 /* gallary */
 #gallary .wrapper .wrapper-item {
   width: 100%;
