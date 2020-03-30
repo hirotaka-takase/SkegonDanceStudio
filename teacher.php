@@ -84,8 +84,9 @@ require_once('header.php');
                     <div class="row no-gutters">
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">RuKa</h5>
-                                <p class="card-text"></p>
+                                <h5 class="card-title">Ruka</h5>
+                                <p class="card-text">ダンスの面白さを伝えられるようなレッスンを目指します。
+                                音楽で踊ること、新しいことができるようになる楽しさを共有していきましょう！</p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
                         </div>
@@ -106,7 +107,12 @@ require_once('header.php');
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">RUE</h5>
-                                <p class="card-text"></p>
+                                <p class="card-text">岐阜市出身
+                                    小学5年生からダンスのレッスンに通い始め、様々なジャンルを学ぶ。数々のイベントやコンテスト、オーディションに出場。
+                                    高校2年生からインストラクターを始め、19歳でNYへダンス留学に行く。インストラクターを務めるチームの受賞経験あり。
+                                    2018年 ダンスインストラクターRUEとして ぎふチャンラジオ番組『オサムのキラめき☆トーク』に出演
+                                    2019年 misonoのバックアップを務める
+                                    男女問わずセクシーかつパワフルな作品づくりをして行きます！ジャンルにとらわない『RUEstyle』を皆さんに楽しんでもらいたいです</p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
                         </div>
