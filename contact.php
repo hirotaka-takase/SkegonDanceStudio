@@ -27,13 +27,26 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     }
 
     if($err_msg == '') {
-        $to = 'hirotaka5314@gmail.com';
-        $headers = "From: " . $email . "\r\n";
-        $content .= "\r\n\r\n" . $name . $tel;
-
         mb_language("Japanese");
         mb_internal_encoding("UTF-8");
-        mb_send_mail($to, "お問い合わせ", $content, $headers);
+
+        $to = 'hirotaka5314@gmail.com';
+        $subject = "お問い合わせ";
+
+        $header = '';
+        $header .= "Content-Type: text/plain \r\n";
+        $header .= "Return-Path: " . $email . " \r\n";
+        $header .= "From: " . $name ." \r\n";
+        $header .= "Sender: " . $name ." \r\n";
+        $header .= "Reply-To: " . $email . " \r\n";
+        $header .= "Organization: " . $name . " \r\n";
+        $header .= "X-Sender: " . $email . " \r\n";
+        $header .= "X-Priority: 3 \r\n";
+
+        $content .= "\r\n\r\n" . $name . $tel;
+
+
+        mb_send_mail($to, $subject, $content, $headers);
 
         $complete_msg = '送信完了致しました';
 
