@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         mb_language("Japanese");
         mb_internal_encoding("UTF-8");
 
-        $to = 'hirotaka5314@gmail.com';
+        $to = 'skegon8808@gmail.com';
         $subject = "お問い合わせ";
 
         $headers = '';
@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         $headers .= "X-Sender: " . $email . " \r\n";
         $headers .= "X-Priority: 3 \r\n";
 
-        $content .= "\r\n\r\n" . $name . $tel;
+        $content .= "\r\n\r\n" . $name . " \r\n" . $tel ." \r\n" . $email;
 
 
         mb_send_mail($to, $subject, $content, $headers);
