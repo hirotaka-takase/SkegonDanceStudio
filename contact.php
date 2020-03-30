@@ -33,15 +33,15 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         $to = 'hirotaka5314@gmail.com';
         $subject = "お問い合わせ";
 
-        $header = '';
-        $header .= "Content-Type: text/plain \r\n";
-        $header .= "Return-Path: " . $email . " \r\n";
-        $header .= "From: " . $name ." \r\n";
-        $header .= "Sender: " . $name ." \r\n";
-        $header .= "Reply-To: " . $email . " \r\n";
-        $header .= "Organization: " . $name . " \r\n";
-        $header .= "X-Sender: " . $email . " \r\n";
-        $header .= "X-Priority: 3 \r\n";
+        $headers = '';
+        $headers .= "Content-Type: text/plain \r\n";
+        $headers .= "Return-Path: " . $email . " \r\n";
+        $headers .= "From: " . $name ." \r\n";
+        $headers .= "Sender: " . $name ." \r\n";
+        $headers .= "Reply-To: " . $email . " \r\n";
+        $headers .= "Organization: " . $name . " \r\n";
+        $headers .= "X-Sender: " . $email . " \r\n";
+        $headers .= "X-Priority: 3 \r\n";
 
         $content .= "\r\n\r\n" . $name . $tel;
 
