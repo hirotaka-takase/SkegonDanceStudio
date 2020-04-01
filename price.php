@@ -20,26 +20,24 @@ require_once('header.php');
             <ul class="list-group list-group-flush" style="width: 300px; margin: 0 auto; background: transparent">
                 <li class="list-group-item">
                     初期費用<br>
-                    3000円
-                </li>
-                <li class="list-group-item">
-                    月会費1ヶ月分<br>
-                    4000円
+                    入会費: 5,000円<br>
+                    月会費: 4,000円
                 </li>
                 <li class="list-group-item">
                     月会費<br>
-                    1クラス月4回/4,000円<br>
-                    2クラス月4回/7,000円
+                    1クラス/4,000円<br>
+                    2クラス/7,000円<br>
+                    3クラス/10,000円
                 </li>
                 <li class="list-group-item">
                     兄弟割引<br>
-                    2人:500円off<br>
-                    3人:1,000円off
+                    2人: 7,500円/月<br>
+                    3人: 11,000円/月
                 </li>
                 <li class="list-group-item">
                     体験<br>
-                    見学:何回でも無料<br>
-                    体験:2回目まで無料
+                    見学:無料<br>
+                    体験:2回まで無料
                 </li>
                 <li class="list-group-item">
                     休会費<br>
