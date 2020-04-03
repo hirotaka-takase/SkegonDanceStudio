@@ -10,10 +10,6 @@ require_once('header.php');
             <p class="mb-5">
                 Skegon Dance Studioでは、世界大会に出場経験をもち<br class="pc">
                 現在も第一線で活躍する個性あふれるインストラクターが指導を行っています。</p>
-            <div class="mb-3">
-                <p class="mb-2">スケジュール表をダウンロード</p>
-                <button class="btn btn-outline-info"><a href="img/schedule.jpg" download="schedule.jpg">ダウンロード</a></button>
-            </div>
             <span class="small text-danger">※月曜は北方町でもレッスンを行っております</span>
             <img class="img-schedule" style="width: 100%; height: auto; display: block; margin: 0 auto 10px;" src="img/schedule.jpg" alt="スケジュール">
         </div>
