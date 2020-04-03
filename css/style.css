@@ -357,6 +357,10 @@ width: 90%;
   width: 130px;
   height: 70px;
 }
+
+.address p.lead {
+  font-size: 1rem!important;
+}
 /* about */
 h1 {
 width: 100%;

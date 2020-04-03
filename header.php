@@ -44,6 +44,15 @@
                 <a class="btn px-5 py-3 btn-info btn-lg" href="/contact.php">体験予約</a>    
             </div>
         </div>
+        <div class="address text-white">
+            <div class="text-center">
+                <p class="lead mb-1">山県スタジオ</p>
+                <p><a target="_blank" rel=”noopener” href="https://goo.gl/maps/xd8Y9fUtqoXfDzBTA">山県市総合体育館(山県市高木1675)</a></p>
+            </div>
+            <div class="text-center">
+                <p class="lead mb-1">北方スタジオ</p>
+                <p><a target="_blank" rel=”noopener” href="https://goo.gl/maps/xTFaEojWkRoD5Fjk8">北方ボクシングジム(本巣郡北方町北方1908-1)</a></p>
+            </div>        </div>
         <p class="page-top">
             <a href="#top">
                 <span>&uarr;<br>トップ</span>
