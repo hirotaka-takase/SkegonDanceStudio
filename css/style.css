@@ -125,9 +125,9 @@
     color: #666;
 }
 .fv{
-   /* background:url(../img/fv.jpg) no-repeat;
+    background:url(../img/fv.jpg) no-repeat;
     background-position: 50% 50%;
-    background-size: cover;*/
+    background-size: cover;
     height: 100vh;
 }
 .fv h2 {
