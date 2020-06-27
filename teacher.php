@@ -120,24 +120,33 @@ require_once('header.php');
                 </div>    
             </div>
         </div>
-  <!--      <div class="bg-black">
+        <div class="bg-black">
             <div class="inner fadein text-center pt-5 pb-5 text-white">
                 <div class="card">
                     <div class="row no-gutters">
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">MiKA</h5>
-                                <p class="card-text"></p>
+                                <h5 class="card-title">Rion</h5>
+                                <p class="card-text">
+                                a-naition オープニングダンサー
+                                TRF バックダンサー
+                                ソロコンテストやチームコンテスト、バトルなどでの入賞実績あり。</p>
+                                <p class="card-text">
+                                初めまして！りおんです！！私のレッスンではベーシックを大切に色んな音楽に合わせ、
+                                毎時間達成感溢れるとてもアットホームで楽しいレッスンです！私のレッスンを通して踊ることの楽しさや、
+                                HIPHOPのかっこよさ、かっこよく踊るコツなどたくさんのことをお伝えできればと思います！
+                                是非きになる方は来てください！！
+                                </p>
                                 <p class="card-text"><small class="text-muted">HIPHOP</small></p>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <img src="img/ruka.jpg" class="card-img" alt="ミカ">
+                            <img src="img/rion.jpg" class="card-img" alt="リオン">
                         </div>
                     </div>
                 </div>    
             </div>
-        </div>-->
+        </div>
     </div>
 <?php
 require_once('footer.php');
